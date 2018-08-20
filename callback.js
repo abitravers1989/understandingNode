@@ -20,3 +20,7 @@ fs.writeFile('input3.txt', 'Using this to chain some callbacks.', (err) => {
         console.log(data.toString());
     })
 })
+
+//questions
+
+//how does node know that all functions written in it are async and have callbacks
