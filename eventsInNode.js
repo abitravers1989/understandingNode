@@ -55,3 +55,9 @@ fs.readFile('newinput.txt', (error, data) => {
 
 
 //emit needs to be called before on 
+
+eventEmitter.on('someEvent', (message) => {
+    console.log(message);
+})
+
+eventEmitter.emit('someEvent', 'why isnt this an error');
